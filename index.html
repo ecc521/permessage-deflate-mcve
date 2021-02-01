@@ -1,0 +1,13 @@
+<script>
+	let ws = new WebSocket("ws://localhost:8081")
+
+	let amount = 100;
+	let pong = "pong".repeat(5000)
+
+	ws.addEventListener("message", function(message) {
+		console.log(message)
+		if (amount-- > 0) {
+			ws.send(pong)
+		}
+	})
+</script>

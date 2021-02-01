@@ -1,0 +1,23 @@
+{
+  "name": "permessage-deflate-mcve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fileServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecc521/permessage-deflate-mcve.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSE",
+  "bugs": {
+    "url": "https://github.com/ecc521/permessage-deflate-mcve/issues"
+  },
+  "homepage": "https://github.com/ecc521/permessage-deflate-mcve#readme",
+  "dependencies": {
+    "ws": "^7.4.2"
+  }
+}
